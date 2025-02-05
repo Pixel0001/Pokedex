@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Cards</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="pokemo.js" defer></script>
+</head>
+<body>
+    <div class="logo">
+        <div>
+            <img src="./assets/pokeball.svg" alt="Pokeball" class="pokeball">
+        </div>
+        <div>
+            <h1 class="title">Pokedex</h1>
+        </div>
+    </div>
+    <div class="search">
+        <div class="search-wrapper">
+            <div class="search-container"></div>
+            <img src="./assets/search.svg" alt="Search" class="search-icon">
+            <input type="search" class="search-bar" placeholder="Search">
+            </div>
+        </div>
+    </div>
+    <div class="scroll">
+        <div class="scroll-wrapper">
+            <div class="all-cards">
+            </div>
+            <template id="pokemon-template">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="id-card">
+                        <p class="id-text"></p>
+                        </div>
+                        <div class="img-card">
+                        <img src="" alt="" class="imagine">
+                        </div>
+                        <div class="fundal-jos">
+                        <div class="body-font1">
+                            <p class="name-text"></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+    <div class="container-jos">  </div>
+</body>
+</html>
