@@ -189,14 +189,16 @@ color: white;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     height: 80%;
-    width: 60%;
+    width: 90%;
+    overflow: scroll;
 }
+
 .img-pokemon{
     margin-bottom: -15px;
     z-index: 1;
 }
 .power{
-
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -232,6 +234,7 @@ color: white;
 .masuratori{
     font-size:smaller;
     color: rgb(150, 150, 150);
+
 }
 .linie-verticala {
     width: 2px;
@@ -290,4 +293,10 @@ color: white;
     position: absolute;
     width: 300px;
     opacity: 0.2;
+}
+.height{
+    width: 20px;
+}
+.weight{
+    width: 20px;
 }
